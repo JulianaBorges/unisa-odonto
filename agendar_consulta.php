@@ -461,11 +461,6 @@
                 }
                 ?>
                 
-                <div class="info-box">
-                    <p>💡 <strong>Dica:</strong> Para saber os IDs disponíveis:</p>
-                    <p>• Por favor, Verifique diretamente no banco de dados.</p>
-                </div>
-                
                 <div class="input-group">
                     <label>🆔 ID do Paciente</label>
                     <input type="number" name="paciente" placeholder="Digite o ID do paciente" required value="<?php echo isset($_POST['paciente']) ? htmlspecialchars($_POST['paciente']) : ''; ?>">
